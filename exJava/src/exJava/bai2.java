@@ -16,11 +16,11 @@ public class bai2 {
 		
 		double min = Math.min(chieuDai, chieuRong);
 		
-		System.out.printf("Chu vi hinh chu nhat la: %f", (chieuDai + chieuRong) * 2);
+		System.out.printf("Chu vi hinh chu nhat la: %.2f", (chieuDai + chieuRong) * 2);
 		System.out.println();
-		System.out.printf("Dien tich hinh chu nhat la: %f", chieuDai * chieuRong);
+		System.out.printf("Dien tich hinh chu nhat la: %.2f", chieuDai * chieuRong);
 		System.out.println();
-		System.out.printf("Cạnh nhỏ của hình chữ nhật là: %f", min);
+		System.out.printf("Cạnh nhỏ của hình chữ nhật là: %.2f", min);
 	}
 
 }

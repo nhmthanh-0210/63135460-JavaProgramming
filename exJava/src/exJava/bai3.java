@@ -13,7 +13,7 @@ public class bai3 {
 			
 			double theTich = Math.pow(canh, 3);
 			
-			System.out.printf("The tich khoi lap phuong la: %f", theTich);
+			System.out.printf("The tich khoi lap phuong la: %.2f", theTich);
 	}
 
 }
