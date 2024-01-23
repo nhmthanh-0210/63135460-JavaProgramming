@@ -10,7 +10,10 @@ public class bai1 {
 		
 		Scanner nhap = new Scanner(System.in);
 		
+		System.out.println("Nhap vao a:");
 		double a = nhap.nextDouble();
+		
+		System.out.println("Nhap vao b:");
 		double b = nhap.nextDouble();
 		
 		double x = -b/a;
