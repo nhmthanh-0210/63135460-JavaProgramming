@@ -16,7 +16,7 @@ public class bai1 {
 		System.out.println("Nhap vao b:");
 		double b = nhap.nextDouble();
 		
-		double x = -b/a;
+		double x = 0;
 		
 		
 		
@@ -28,9 +28,8 @@ public class bai1 {
 				System.out.println("Vô nghiệm");
 			}
 			
-		}
-			else{
-				System.out.printf("kết quả của phương trình là: %.1f", x );
+		}else{
+				System.out.printf("kết quả của phương trình là: %.1f", x = -b/a);
 			}
 			
 			
