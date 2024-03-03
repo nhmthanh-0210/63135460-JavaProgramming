@@ -24,7 +24,7 @@ public class bai2 {
             System.out.println("6. Kết thúc");
             System.out.print("Nhập lựa chọn của bạn: ");
             luaChon = scanner.nextInt();
-            scanner.nextLine(); // Đọc kí tự newline từ lựa chọn trước đó
+            scanner.nextLine(); 
 
             switch (luaChon) {
                 case 1:
@@ -54,7 +54,7 @@ public class bai2 {
     static void nhap() {
         System.out.print("Nhập số lượng họ và tên: ");
         int soLuong = scanner.nextInt();
-        scanner.nextLine(); // Đọc kí tự newline từ số lượng trước đó
+        scanner.nextLine(); 
 
         for (int i = 0; i < soLuong; i++) {
             System.out.print("Nhập họ và tên thứ " + (i + 1) + ": ");
